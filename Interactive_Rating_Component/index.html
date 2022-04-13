@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+    <div class="first__container" id="first_container">
+      <div class="box">
+        <div class="image__star">
+          <img src="images/icon-star.svg" alt="star">
+        </div>
+        <div class="first__container__article">
+          <h2>How did we do?</h2>
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated 
+            to help us improve our offering!
+          </p>
+        </div>  
+        <div class="rating__list">
+          <ul>
+            <li>
+              <button class="btn">1</button>  
+            </li>
+            <li>
+              <button class="btn">2</button>  
+            </li>
+            <li>
+              <button class="btn">3</button>  
+            </li>
+            <li>
+              <button class="btn">4</button>  
+            </li>
+            <li>
+              <button class="btn">5</button>  
+            </li>
+          </ul>
+        </div>
+        <div class="button">
+          <button id="submit__button">
+            <p>Submit</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="second__container" id="second__container">
+      <div class="second__box">  
+        <div class="image__phone">
+          <img class="thank__you" src="images/illustration-thank-you.svg" alt="thank__you">
+        </div>
+        <div class="show__result">
+          <h4>You selected <span id="number"> 0 </span> out of 5</h4>
+        </div>
+        <div class="second__article">
+          <h2 id="second__title">Thank you!</h2>
+          <p id="second__article__text">
+            We appreciate you taking the time to give a rating. If you ever need more support, 
+            don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
